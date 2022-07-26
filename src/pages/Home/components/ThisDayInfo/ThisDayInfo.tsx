@@ -1,16 +1,16 @@
-import React from 'react';
+// import React from 'react';
 import s from './ThisDayInfo.module.scss';
-import Select from 'react-select';
-import { readBuilderProgram } from 'typescript';
+// import Select from 'react-select';
+// import { readBuilderProgram } from 'typescript';
 import cloud from '../../../../assets/images/cloud.png';
 import { ThisDayItem } from './ThisDayItem';
 
-type Props = {}
+interface Props {}
 
 export interface Item {
-    icon_id: string,
-    name: string,
-    value: string,
+  icon_id: string;
+  name: string;
+  value: string;
 }
 
 export const ThisDayInfo = (props: Props) => {

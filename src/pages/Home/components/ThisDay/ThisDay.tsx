@@ -2,7 +2,7 @@ import React from 'react';
 import s from './ThisDay.module.scss';
 import Select from 'react-select';
 import { readBuilderProgram } from 'typescript';
-import { GlobalSvgSelector } from '../../../../assets/items/global/GlobalSvgSelector';
+import { GlobalSvgSelector } from '../../../../assets/icons/global/GlobalSvgSelector';
 
 type Props = {}
 

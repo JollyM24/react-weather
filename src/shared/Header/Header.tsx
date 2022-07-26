@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlobalSvgSelector } from '../../assets/items/global/GlobalSvgSelector';
+import { GlobalSvgSelector } from '../../assets/icons/global/GlobalSvgSelector';
 import s from './Header.module.scss';
 import Select from 'react-select';
 import { readBuilderProgram } from 'typescript';
