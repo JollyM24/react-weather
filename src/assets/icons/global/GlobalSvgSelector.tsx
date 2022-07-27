@@ -1,5 +1,6 @@
 import React from 'react';
 import favicon from '../../../assets/images/favicon.png';
+import logo from '../../../assets/images/logo.png';
 
 type Props = {
     id: string;
@@ -53,7 +54,7 @@ export const GlobalSvgSelector = ({ id }: Props) => {
         //     fill="#ffffff"
         //   />
         // </svg>
-        <img src={favicon} alt="logo" />
+        <img src={logo} alt="logo" />
       );
     case 'change-theme':
       return (

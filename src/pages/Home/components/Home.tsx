@@ -10,6 +10,7 @@ export const Home = (props: Props) => {
     <div className={s.home}>
        <ThisDay />
        <ThisDayInfo />
+       {/* in footer<a target="_blank" href="https://icons8.com/icon/96379/climate-care">Climate Care</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
     </div>
   )
 }
