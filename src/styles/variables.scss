@@ -1,6 +1,18 @@
-$lite-background: #fff;
+$lite-background: #EFEEEE;
 $box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
 $border-radius: 20px;
 $primary-color: #4793ff;
-$lite-color: #000;
+$lite-color: #466399;
 $base-color: #939cb0;
+
+
+$body-background-light: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.15)), url('img/light.png');
+$title-color-light: #466399;
+
+:root {
+    --body-background-light: #{$body-background-light};
+    --body-background-default: var(#{--body-background-light});
+
+    --title-color-light: #{$title-color-light};
+    --title-color-default: var(#{var(--title-color-light)});
+}

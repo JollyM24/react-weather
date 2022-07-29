@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -19,9 +20,9 @@
 }
 
 .title {
-    text-transform: overcase;
-    font-weight: bold;
-    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
 }
 
 .change_theme, .logo {

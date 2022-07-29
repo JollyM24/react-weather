@@ -31,7 +31,7 @@ const colourStyles = {
             <div className={s.logo}>
                 <GlobalSvgSelector id="header-logo" />
             </div>
-            <div className={s.title}>React Weather</div>
+            <div className={s.title}>ReactWeather</div>
         </div>
         <div className={s.wrapper}>
             <div className={s.change_theme}>

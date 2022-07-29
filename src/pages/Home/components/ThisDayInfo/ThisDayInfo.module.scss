@@ -4,6 +4,7 @@
     position: relative;
     padding: 40px;
     width: 100%;
+    max-width: 750px;
     background: $lite-background;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
@@ -45,4 +46,10 @@
         font-size: 14px;
         color: $lite-color;
     }
+}
+
+.cloud__img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
