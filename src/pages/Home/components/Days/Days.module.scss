@@ -8,6 +8,7 @@
     width: 100%;
     box-shadow: $box-shadow;
     border-radius: 0 0 $border-radius $border-radius;
+    background-color: $lite-background;
 }
 
 .card {
@@ -56,7 +57,7 @@
 .tabs {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 7px;
+    margin-bottom: 40px;
 }
 
 .cancel,
@@ -64,12 +65,14 @@
     box-shadow: 2px 5px 25px -3px rgba(180,180,180, 0.25);
     border-radius: 5px;
     padding: 9px 20px;
+    background-color: $lite-background;
+    color: $lite-color;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 15px;
-    cursor: pointed;
+    cursor: pointer;
 }
 
 .cancel {
@@ -78,6 +81,10 @@
 
 .tab {
     &:active {
+        background: $primary-color;
+        color: #fff;
+    }
+    &:focus {
         background: $primary-color;
         color: #fff;
     }
