@@ -8,13 +8,13 @@
     width: 100%;
     box-shadow: $box-shadow;
     border-radius: 0 0 $border-radius $border-radius;
-    background-color: $lite-background;
+    background-color: var(#{--components-background-default});
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    background-color: #C4D0E5;
+    background-color:  var(#{--card-background-default});
     border-radius: 10px;
     padding: 10px;
     width: 149px;
@@ -29,7 +29,7 @@
     .day__info {
         font-size: 14px;
         margin-bottom: 12px;
-        color: $base-color;
+        color:  var(#{--text-color-default});;
     }
     
     .img {
@@ -42,16 +42,15 @@
     
     .temp__night {
         font-size: 13px;
-        color: $base-color;
+        color:  var(#{--text-color-default});;
         margin-bottom: 6px;
     }
     
     .info {
         font-size: 13px;
-        color: $base-color;
+        color:  var(#{--text-color-default});;
     }
 
-    &:hover {}
 }
 
 .tabs {
@@ -65,8 +64,8 @@
     box-shadow: 2px 5px 25px -3px rgba(180,180,180, 0.25);
     border-radius: 5px;
     padding: 9px 20px;
-    background-color: $lite-background;
-    color: $lite-color;
+    background-color: var(#{--components-background-default});
+    color:  var(#{--text-color-default});
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -81,11 +80,11 @@
 
 .tab {
     &:active {
-        background: $primary-color;
+        background:  var(#{--components-background-default});
         color: #fff;
     }
     &:focus {
-        background: $primary-color;
+        background: red;
         color: #fff;
     }
 }

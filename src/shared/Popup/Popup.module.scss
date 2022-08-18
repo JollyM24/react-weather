@@ -11,7 +11,7 @@
     padding: 40px;
     width: 100%;
     max-width: 750px;
-    background: $lite-background;
+    background: var(#{--components-background-default});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -43,13 +43,13 @@
     .day__temp {
         font-weight: 500;
         font-size: 60px;
-        color: $primary-color;
+        color:  var(#{--text-base-color});
         margin-bottom: 12px;
     }
     .day__name {
         font-size: 25px;
         line-height: 30px;
-        color: #000000;
+        color: var(#{--text-color-default});
         margin-bottom: 12px;
     }
     .img {
@@ -63,6 +63,6 @@
     .day__time,
     .day__city {
         font-size: 15px;
-        color: $base-color;
+        color: var(#{--text-base-color});
     }
 }

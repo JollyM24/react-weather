@@ -4,7 +4,7 @@
     padding: 20px;
     max-width: 400px;
     width: 100%;
-    background: $lite-background;
+    background: var(#{--components-background-default});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -31,19 +31,19 @@
     .this__temp {
         font-size: 96px;
         font-weight: 500px;
-        color: $primary-color;
+        color:  var(#{--text-base-color});
     }
 
     .this__day_name {
         font-size: 40px;
-        color: $lite-color;
+        color:  var(#{--text-color-default});
     }
 }
 
 .bottom__block {
     .this__time,
     .this__city {
-        color: $base-color;
+        color: var(#{--text-base-color});
         font-size: 25px;
     }
 }

@@ -5,7 +5,7 @@
     padding: 40px;
     width: 100%;
     max-width: 750px;
-    background: $lite-background;
+    background: var(#{--components-background-default});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -39,12 +39,12 @@
     
     .indicator__name {
         font-size: 14px;
-        color: $base-color;
+        color: var(#{--text-base-color});
     }
 
     .indicator__value {
         font-size: 14px;
-        color: $lite-color;
+        color: var(#{--text-color-default});
     }
 }
 
