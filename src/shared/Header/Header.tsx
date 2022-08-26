@@ -34,7 +34,7 @@ const colourStyles = {
         setTheme(theme === 'light' ? 'dark' : 'light');
         console.log(theme);
         const root = document.querySelector(':root') as HTMLElement;
-        root.style.setProperty('--body-background-default', 'var(#{--body-background-${theme}');
+        root.style.setProperty('--body-background-default', 'var(--body-background-${theme})');
     }
 
   return (
