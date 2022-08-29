@@ -1,12 +1,12 @@
 $box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
 $border-radius: 20px;
 
-$text-base-color: #5573A9;
-$text-dark-color: #EFEEEE; 
-$text-light-color: #323C4F;
+$text-color-base: #5573A9;
+$text-color-dark: #EFEEEE; 
+$text-color-light: #323C4F;
 
 $body-background-light: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.15)), url('img/light.png');
-$body-background-dark: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.15)), url('img/dark.png');
+$body-background-dark: url('img/dark.png');
 
 $components-background-light: #EFEEEE;
 $components-background-dark: #323C4F;
@@ -36,10 +36,10 @@ $title-color-light: #466399;
     --card-shadow-light: #{$card-box-shadow-light};
     --card-shadow-default: var(#{--card-shadow-light});
   
-    --text-base-color: #{$text-base-color};
-    --text-light-color: #{$text-light-color};
-    --text-dark-color: #{$text-dark-color};
-    --text-color-default: var(#{--text-light-color});
+    --text-color-base: #{$text-color-base};
+    --text-color-light: #{$text-color-light};
+    --text-color-dark: #{$text-color-dark};
+    --text-color-default: var(#{--text-color-light});
     
     --title-color-light: #{$title-color-light};
     --title-color-default: var(#{var(--title-color-light)});

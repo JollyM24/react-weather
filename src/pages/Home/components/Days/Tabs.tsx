@@ -24,7 +24,7 @@ export const Tabs = (props: Props) => {
           ))}
       </div>
 
-        <div className={s.cancel}>Otmenit</div>
+        <div className={s.cancel}>Отменить</div>
     </div>
   )
 }

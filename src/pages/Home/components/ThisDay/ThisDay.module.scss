@@ -31,7 +31,7 @@
     .this__temp {
         font-size: 96px;
         font-weight: 500px;
-        color:  var(#{--text-base-color});
+        color:  var(#{--text-color-base});
     }
 
     .this__day_name {
@@ -43,7 +43,7 @@
 .bottom__block {
     .this__time,
     .this__city {
-        color: var(#{--text-base-color});
+        color: var(#{--text-color-base});
         font-size: 25px;
     }
 }
